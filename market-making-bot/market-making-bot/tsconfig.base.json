@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",                  // Base directory of the workspace
+    "paths": {
+      "@market-making-bot/market-maker": ["libs/market-maker/src/index.ts"],
+      "@market-making-bot/price-feed": ["libs/price-feed/src/index.ts"]
+    },
+    "target": "ES2015",
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["run-bot.ts", "libs/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

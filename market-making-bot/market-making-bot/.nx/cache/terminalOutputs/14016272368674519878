@@ -1,0 +1,11 @@
+Compiling TypeScript files for project "market-maker"...
+[31m[1m[31m[96mlibs/market-maker/src/lib/market-maker.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"@market-making-bot/price-feed"' has no exported member named 'getAggregatedPrice'. Did you mean 'getLatestAggregatedPrice'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m import { getAggregatedPrice } from '@market-making-bot/price-feed';[39m[22m
+[1m[31m[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mdist/libs/price-feed/lib/price-feed.d.ts[0m:[93m2[0m:[93m25[0m[39m[22m
+[1m[31m    [7m2[0m export declare function getLatestAggregatedPrice(): number;[39m[22m
+[1m[31m    [7m [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'getLatestAggregatedPrice' is declared here.[39m[22m
+[1m[31m[39m[22m[39m

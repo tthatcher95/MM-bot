@@ -1,0 +1,653 @@
+{
+  "12835871163061715007_libs/market-maker/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly --pretty --verbose",
+        "options": {
+          "cwd": "libs/market-maker"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/market-maker"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "12835871163061715007_libs/market-maker/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json --pretty --verbose",
+        "options": {
+          "cwd": "libs/market-maker"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/market-maker"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "14440278419349785313_libs/price-feed/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly --pretty --verbose",
+        "options": {
+          "cwd": "libs/price-feed"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/price-feed"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "14440278419349785313_libs/price-feed/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json --pretty --verbose",
+        "options": {
+          "cwd": "libs/price-feed"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/price-feed"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "3143177577647052953_libs/market-maker/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly --pretty --verbose",
+        "options": {
+          "cwd": "libs/market-maker"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/market-maker"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "3143177577647052953_libs/market-maker/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json --pretty --verbose",
+        "options": {
+          "cwd": "libs/market-maker"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/market-maker"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "5521870246341508852_libs/price-feed/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly --pretty --verbose",
+        "options": {
+          "cwd": "libs/price-feed"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/price-feed"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "5521870246341508852_libs/price-feed/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json --pretty --verbose",
+        "options": {
+          "cwd": "libs/price-feed"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/price-feed"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "16201482721894094358_libs/market-maker/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly --pretty --verbose",
+        "options": {
+          "cwd": "libs/market-maker"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/market-maker"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "16201482721894094358_libs/market-maker/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json --pretty --verbose",
+        "options": {
+          "cwd": "libs/market-maker"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/market-maker"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "16251365158770453425_libs/price-feed/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly --pretty --verbose",
+        "options": {
+          "cwd": "libs/price-feed"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/price-feed"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "16251365158770453425_libs/price-feed/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json --pretty --verbose",
+        "options": {
+          "cwd": "libs/price-feed"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/price-feed"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "5464734163360740480_libs/price-feed/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly --pretty --verbose",
+        "options": {
+          "cwd": "libs/price-feed"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/price-feed"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "5464734163360740480_libs/price-feed/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json --pretty --verbose",
+        "options": {
+          "cwd": "libs/price-feed"
+        },
+        "cache": true,
+        "inputs": [
+          "{workspaceRoot}/tsconfig.base.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src/**/*.ts",
+          "!{projectRoot}/**/*.spec.ts",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/libs/price-feed"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/libs/price-feed",  // Output directly to dist/libs/market-maker
+    "rootDir": ".",                            // Treat the project root (not src/) as rootDir
+    "declaration": true,
+    "sourceMap": true,
+    "target": "ES2015",
+    "module": "commonjs",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"],   // Ensure TypeScript includes files from src
+  "exclude": ["**/*.spec.ts"]   // Exclude test files
+}

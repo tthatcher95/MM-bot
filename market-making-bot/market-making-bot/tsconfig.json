@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+      "outDir": "./dist",  // Ensure compiled files go to dist/
+      "rootDir": ".",      // Root directory for source files
+      "declaration": true, // If you need declaration files
+      "sourceMap": true    // Optional, but useful for debugging
+    },
+    "include": ["run-bot.ts", "libs/**/*.ts"]
+}

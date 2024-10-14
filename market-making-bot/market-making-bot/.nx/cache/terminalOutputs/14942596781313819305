@@ -1,0 +1,6 @@
+Compiling TypeScript files for project "price-feed"...
+[31m[1m[31m[96mnode_modules/@types/node/module.d.ts[0m:[93m107[0m:[93m13[0m - [91merror[0m[90m TS2386: [0mOverload signatures must all be optional or required.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m107[0m             resolve?(specified: string, parent?: string | URL): Promise<string>;[39m[22m
+[1m[31m[7m   [0m [91m            ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m[39m

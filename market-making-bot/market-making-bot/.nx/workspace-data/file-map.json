@@ -1,0 +1,367 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.0.0",
+  "pathMappings": {
+    "@market-making-bot/market-maker": [
+      "libs/market-maker/src/index.ts"
+    ],
+    "@market-making-bot/price-feed": [
+      "libs/price-feed/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "dist/libs/market-maker/src/index.d.ts",
+        "hash": "6387439677490687946"
+      },
+      {
+        "file": "dist/libs/price-feed/lib/price-feed.js",
+        "hash": "4270050093443782844"
+      },
+      {
+        "file": "dist/libs/market-maker/src/lib/market-maker.js",
+        "hash": "696521187788026576"
+      },
+      {
+        "file": ".nx/workspace-data/57FFA16D-2945-5FFC-9F9D-38A9419303FF.db-shm",
+        "hash": "15265364599512757969"
+      },
+      {
+        "file": "dist/libs/price-feed/src/lib/price-feed.js.map",
+        "hash": "3574541566734570575"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5854190482715987279",
+        "hash": "9808059272589790100"
+      },
+      {
+        "file": "dist/libs/price-feed/index.js",
+        "hash": "6470807941677942872"
+      },
+      {
+        "file": "dist/libs/market-maker/src/lib/market-maker.d.ts",
+        "hash": "9365458621393782427"
+      },
+      {
+        "file": "runApp.zsh",
+        "hash": "3831093520792905987"
+      },
+      {
+        "file": "package.json",
+        "hash": "9594419662836707897"
+      },
+      {
+        "file": "README.md",
+        "hash": "14506654807690941030"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "17010948427089440785"
+      },
+      {
+        "file": "dist/libs/price-feed/index.js.map",
+        "hash": "13483500679808344957"
+      },
+      {
+        "file": "dist/libs/price-feed/src/index.js",
+        "hash": "6470807941677942872"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6893560697835957899"
+      },
+      {
+        "file": "dist/libs/price-feed/src/lib/price-feed.js",
+        "hash": "4270050093443782844"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "1761192627134294227"
+      },
+      {
+        "file": ".nx/workspace-data/57FFA16D-2945-5FFC-9F9D-38A9419303FF.db-wal",
+        "hash": "5695986942548373996"
+      },
+      {
+        "file": "dist/libs/price-feed/lib/price-feed.js.map",
+        "hash": "5178627118108438567"
+      },
+      {
+        "file": "dist/libs/market-maker/src/index.js",
+        "hash": "5159829575136794274"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "2388356255196094863"
+      },
+      {
+        "file": "dist/libs/market-maker/lib/market-maker.d.ts",
+        "hash": "9365458621393782427"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17775041323922351553"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5673190821613406900"
+      },
+      {
+        "file": "dist/libs/price-feed/package.json",
+        "hash": "7311371797051989954"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "5868912852727264"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "12854019533140827044"
+      },
+      {
+        "file": "dist/libs/price-feed/src/index.js.map",
+        "hash": "6816956466867046713"
+      },
+      {
+        "file": "dist/libs/market-maker/src/index.js.map",
+        "hash": "5228267301669035679"
+      },
+      {
+        "file": "dist/run-bot.js.map",
+        "hash": "16492630208641595914"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "8524517646386115758"
+      },
+      {
+        "file": "dist/libs/market-maker/index.d.ts",
+        "hash": "6387439677490687946"
+      },
+      {
+        "file": "dist/libs/price-feed/index.d.ts",
+        "hash": "3709657582453441267"
+      },
+      {
+        "file": "dist/run-bot.d.ts",
+        "hash": "4595979742548113990"
+      },
+      {
+        "file": "dist/libs/price-feed/src/index.d.ts",
+        "hash": "3709657582453441267"
+      },
+      {
+        "file": "dist/libs/market-maker/package.json",
+        "hash": "4966905387881646549"
+      },
+      {
+        "file": "dist/libs/price-feed/lib/price-feed.d.ts",
+        "hash": "9809424867837820243"
+      },
+      {
+        "file": "dist/libs/price-feed/src/lib/price-feed.d.ts",
+        "hash": "9809424867837820243"
+      },
+      {
+        "file": "dist/libs/market-maker/lib/market-maker.js.map",
+        "hash": "13095119479579097879"
+      },
+      {
+        "file": "dist/libs/market-maker/index.js",
+        "hash": "5159829575136794274"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "dist/libs/market-maker/src/lib/market-maker.js.map",
+        "hash": "12063828255243282389"
+      },
+      {
+        "file": "dist/libs/market-maker/index.js.map",
+        "hash": "3876877376512133265"
+      },
+      {
+        "file": "dist/run-bot.js",
+        "hash": "5594682558900797785"
+      },
+      {
+        "file": "buildApp.zsh",
+        "hash": "17829877547013449510"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/17255912815157004543",
+        "hash": "17882403477970911614"
+      },
+      {
+        "file": "dist/libs/market-maker/lib/market-maker.js",
+        "hash": "696521187788026576"
+      },
+      {
+        "file": "run-bot.ts",
+        "hash": "14714230393935654798"
+      }
+    ],
+    "projectFileMap": {
+      "market-maker": [
+        {
+          "file": "libs/market-maker/README.md",
+          "hash": "18329375321693309145"
+        },
+        {
+          "file": "libs/market-maker/dist/tsconfig.lib.tsbuildinfo",
+          "hash": "10034944207850923456"
+        },
+        {
+          "file": "libs/market-maker/package.json",
+          "hash": "9840311316561156728",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/market-maker/project.json",
+          "hash": "13353042556319984520"
+        },
+        {
+          "file": "libs/market-maker/src/index.d.ts",
+          "hash": "6387439677490687946"
+        },
+        {
+          "file": "libs/market-maker/src/index.js",
+          "hash": "5159829575136794274"
+        },
+        {
+          "file": "libs/market-maker/src/index.js.map",
+          "hash": "11160986421429464191"
+        },
+        {
+          "file": "libs/market-maker/src/index.ts",
+          "hash": "6387439677490687946"
+        },
+        {
+          "file": "libs/market-maker/src/lib/market-maker.d.ts",
+          "hash": "9365458621393782427"
+        },
+        {
+          "file": "libs/market-maker/src/lib/market-maker.js",
+          "hash": "15491265308680452060"
+        },
+        {
+          "file": "libs/market-maker/src/lib/market-maker.js.map",
+          "hash": "7648692709965984968"
+        },
+        {
+          "file": "libs/market-maker/src/lib/market-maker.ts",
+          "hash": "9393732666342379878",
+          "deps": [
+            "price-feed"
+          ]
+        },
+        {
+          "file": "libs/market-maker/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "libs/market-maker/tsconfig.lib.json",
+          "hash": "7396588308848129454"
+        }
+      ],
+      "price-feed": [
+        {
+          "file": "libs/price-feed/README.md",
+          "hash": "7922132236875398701"
+        },
+        {
+          "file": "libs/price-feed/dist/index.d.ts",
+          "hash": "18261680472704538621"
+        },
+        {
+          "file": "libs/price-feed/dist/index.d.ts.map",
+          "hash": "9626882281596155153"
+        },
+        {
+          "file": "libs/price-feed/dist/index.js",
+          "hash": "11245567964962472818",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/price-feed/dist/lib/price-feed.d.ts",
+          "hash": "17588696385345869388"
+        },
+        {
+          "file": "libs/price-feed/dist/lib/price-feed.d.ts.map",
+          "hash": "14143401416916816481"
+        },
+        {
+          "file": "libs/price-feed/dist/lib/price-feed.js",
+          "hash": "2855788957911947629"
+        },
+        {
+          "file": "libs/price-feed/dist/tsconfig.lib.tsbuildinfo",
+          "hash": "10034944207850923456"
+        },
+        {
+          "file": "libs/price-feed/package.json",
+          "hash": "14782728435745745029",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/price-feed/project.json",
+          "hash": "16983130452455172321"
+        },
+        {
+          "file": "libs/price-feed/src/index.d.ts",
+          "hash": "3709657582453441267"
+        },
+        {
+          "file": "libs/price-feed/src/index.js",
+          "hash": "6470807941677942872"
+        },
+        {
+          "file": "libs/price-feed/src/index.js.map",
+          "hash": "4589097235993873340"
+        },
+        {
+          "file": "libs/price-feed/src/index.ts",
+          "hash": "3709657582453441267"
+        },
+        {
+          "file": "libs/price-feed/src/lib/price-feed.d.ts",
+          "hash": "5082347126096521368"
+        },
+        {
+          "file": "libs/price-feed/src/lib/price-feed.js",
+          "hash": "16593803148854645953"
+        },
+        {
+          "file": "libs/price-feed/src/lib/price-feed.js.map",
+          "hash": "1719540446982191515"
+        },
+        {
+          "file": "libs/price-feed/src/lib/price-feed.ts",
+          "hash": "989697389755722600",
+          "deps": [
+            "npm:axios",
+            "npm:ws"
+          ]
+        },
+        {
+          "file": "libs/price-feed/tsconfig.json",
+          "hash": "15856989918287211863"
+        },
+        {
+          "file": "libs/price-feed/tsconfig.lib.json",
+          "hash": "1509629818461940570"
+        }
+      ]
+    }
+  }
+}

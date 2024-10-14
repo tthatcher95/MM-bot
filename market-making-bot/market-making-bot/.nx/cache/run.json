@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build market-maker --skip-nx-cache",
+    "startTime": "2024-10-14T13:38:20.016Z",
+    "endTime": "2024-10-14T13:38:22.856Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "market-maker:build",
+      "target": "build",
+      "projectName": "market-maker",
+      "hash": "5854190482715987279",
+      "startTime": "2024-10-14T13:38:20.029Z",
+      "endTime": "2024-10-14T13:38:22.856Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

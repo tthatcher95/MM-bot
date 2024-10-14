@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "projects": {
+    "market-maker": {
+      "root": "libs/market-maker",
+      "sourceRoot": "libs/market-maker/src",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/js:tsc",
+          "options": {
+            "outputPath": "dist/libs/market-maker",
+            "main": "libs/market-maker/src/index.ts",
+            "tsConfig": "libs/market-maker/tsconfig.lib.json"
+          }
+        }
+      }
+    },
+    "price-feed": {
+      "root": "libs/price-feed",
+      "sourceRoot": "libs/price-feed/src",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/js:tsc",
+          "options": {
+            "outputPath": "dist/libs/price-feed",
+            "main": "libs/price-feed/src/index.ts",
+            "tsConfig": "libs/price-feed/tsconfig.lib.json"
+          }
+        }
+      }
+    }
+  }
+}

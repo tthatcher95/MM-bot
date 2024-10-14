@@ -1,0 +1,6 @@
+Compiling TypeScript files for project "market-maker"...
+[31m[1m[31m[96mlibs/market-maker/src/lib/market-maker.ts[0m:[93m68[0m:[93m35[0m - [91merror[0m[90m TS18046: [0m'error' is of type 'unknown'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m68[0m     console.error(`[BOT] Error: ${error.message}`);[39m[22m
+[1m[31m[7m  [0m [91m                                  ~~~~~[0m[39m[22m
+[1m[31m[39m[22m[39m
